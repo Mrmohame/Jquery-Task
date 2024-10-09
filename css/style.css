@@ -1,0 +1,97 @@
+
+ 
+ :root{
+    scroll-behavior: auto;
+ }
+ 
+ /* body{
+    scroll-behavior: auto;
+ } */
+ li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.Home{
+    background:linear-gradient(rgba(129, 28, 31,0.7),rgba(129, 28, 31,0.6)), url(https://routeegy.github.io/egyptianParty/images/events-heavenly-header.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+.Home h1{
+    font-size: 3.8rem;
+}
+.singerButton{
+    cursor: pointer;
+    background-color: rgba(214, 46, 51, 0.6);
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+.sidebar1{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+/* width: 15%; */
+display: none;
+/* left: -100%; */
+/* display: none; */
+}
+.sidebar1 li{
+cursor: pointer;
+transition: all 0.3s;
+font-size: 2rem;
+}
+.sidebar1 li:hover{
+    color: rgb(129, 28, 31);
+}
+.open{
+    cursor: pointer;
+    color: white;
+}
+ .d_none{
+    display: none;
+ }
+
+.siteWidth{
+    width: 80%;
+}
+
+.close{
+    cursor: pointer;
+}
+
+.count{
+    background: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url(https://routeegy.github.io/egyptianParty/images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+
+.media{
+padding: 22px;
+    width: 40px;
+text-align: center;
+    height: 30px;
+    background-color: transparent;
+   border: 1px solid gray;
+   transition: all 0.4s;
+}
+.media:hover{
+    background-color:rgb(129, 28, 31);
+
+}
+.media:hover i{
+    color: white !important;
+}
+
+@media screen and (max-width:768px) {
+    .singers{
+        width: 90% !important;
+    }
+}
