@@ -63,7 +63,9 @@ $(".textArea").on("input", function(){
 let x=$(".textArea").val().length
 
    $('.number').text(y-x)
-   
+   if((y-x)<0){
+    $('.maxChar').text("you've hit the maximum length").addClass("text-warning")
+   }
 })
 
 
